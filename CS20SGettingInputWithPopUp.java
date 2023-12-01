@@ -51,21 +51,21 @@ public class CS20SGettingInputWithPopUp{
     
         // get a string from thne pop-up
         prompt = "Enter a string.";
-        strin = JOptionPane.showInputDialog(nl + banner + prompt);
-        JOptionPane.showMessageDialog(null, nl + banner + "You entered " + strin);
+        strin = JOptionPane.showInputDialog(banner + nl + prompt);
+        JOptionPane.showMessageDialog(null,banner + nl + "You entered " + strin);
         
         // get an int from the pop-up
         prompt = "enter an integer.";
         //number = Integer.parseInt(JOptionPane.showInputDialog(nl + banner + prompt));
         
-        strin = JOptionPane.showInputDialog(nl + banner + prompt);
+        strin = JOptionPane.showInputDialog(banner + nl + prompt);
         number = Integer.parseInt(strin);
-        JOptionPane.showMessageDialog(null, nl + banner + "You entered " + number);
+        JOptionPane.showMessageDialog(null,banner +  nl + "You entered " + number);
         
         //get a double from the pop-up
         prompt = "enter a double.";
-        floatingPoint = Double.parseDouble(JOptionPane.showInputDialog(nl + banner + prompt));
-        JOptionPane.showMessageDialog(null, nl + banner + "You entered " + floatingPoint);
+        floatingPoint = Double.parseDouble(JOptionPane.showInputDialog(banner + nl + prompt));
+        JOptionPane.showMessageDialog(null,banner +  nl + "You entered " + floatingPoint);
         
     // **** processing ****
     
